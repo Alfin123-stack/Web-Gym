@@ -5,18 +5,18 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+
 
 body{
     height: 10000px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* button */
 .btn{
-    padding: 1rem 2rem;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    padding: 1rem 3rem;
+    font-family: 'Montserrat', sans-serif;;
     background-color: rgb(94, 58, 212);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 
@@ -52,6 +52,16 @@ nav .navigasi ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
+}
+
+nav .navigasi ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+
+nav .navigasi ul li a:hover{
+    color: rgb(181, 172, 209);
 }
 
 nav .join {
@@ -94,6 +104,7 @@ main .landingpage{
     background-image: url(asset/landingpage.png);
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
     color: white;
     padding: 0 15%;
 
@@ -108,8 +119,9 @@ main .landingpage p{
     margin-bottom: 2rem;
 }
 main .landingpage h1{
-    font-size: 5rem;
-    font-weight: bolder;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 5rem;
 }
 
 main .landingpage .btn-landingpage{
@@ -118,3 +130,41 @@ main .landingpage .btn-landingpage{
 }
 
 
+/* section 1 */
+main .sct-1{
+    margin-top: 3rem;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+main .sct-1 .img-sct-1{
+    background-image: url(asset/foto1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 50%;
+    height: 100%;
+}
+
+main .sct-1 .art-sct-1{
+    background-color: rgb(5, 7, 21);
+    width: 50%;
+    color: white;
+    padding: 8rem;
+
+}
+
+main .sct-1 .art-sct-1 h1{
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+}
+
+main .sct-1 .art-sct-1 p{
+    margin: 3rem 0;
+    line-height: 1.7rem;
+    word-spacing: 5px;
+    font-weight: 100;
+}
