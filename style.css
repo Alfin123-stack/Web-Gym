@@ -41,6 +41,7 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
+    background-color: rgb(5, 7, 21);
 }
 
 nav .navigasi{
@@ -243,3 +244,66 @@ main .sct-2 .category-class .timebutton-class p{
 .btn-classes:hover{
     background-color: rgb(92, 74, 151);
 }
+
+/* section 3 */
+
+main .sct-3{
+    margin-top: 3rem;
+}
+
+main .sct-3 h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: rgb(94, 58, 212);
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+}
+
+main .sct-3 .wrap-sct{
+    display: flex;
+    height: 700px;
+}
+
+main .sct-3 .wrap-sct .img-sct {
+    width: 50%;
+    height: 100%;
+}
+
+/* middle sct */
+.img-sct-middle{
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-image: url(asset/sct-2.png);
+}
+
+main .sct-3 .wrap-sct .img-sct img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .sct-3 .wrap-sct .art-joinnow{
+    width: 50%;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .sct-3 .wrap-sct .art-joinnow h3{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(94, 58, 212);
+    margin-bottom: 3rem;
+}
+
+main .sct-3 .wrap-sct .art-joinnow p{
+    line-height: 2rem;
+    word-spacing: 5px;
+    font-weight: 100;
+    color: rgb(48, 23, 133);
+}
+
+
+
