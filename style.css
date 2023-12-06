@@ -305,5 +305,88 @@ main .sct-3 .wrap-sct .art-joinnow p{
     color: rgb(48, 23, 133);
 }
 
+/* awal section 4 */
+
+main .sct-4{
+    background-image: url(asset/foto2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    margin-top: 3rem;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .sct-4 h1{
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    font-weight: 900;
+}
+
+main .sct-4 p{
+    font-weight: 600;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, .5);
+}
+
+
+main .sct-4 form{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: .6rem;
+
+}
+
+main .sct-4 form input{
+    border-radius: 0;
+    border: none;
+    height: 100%;
+    padding: .5rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+main .sct-4 form #prefix{
+    width: 15%;
+}
+
+main .sct-4 form #phone{
+    width: 25%;
+}
+
+main .sct-4 form button{
+    padding: .7rem 1.2rem;
+    width: 25%;
+}
+
+main .sct-4 .img-download{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    column-gap: .5rem;
+}
+
+main .sct-4 .img-download a{
+    width: 100%;
+    height: 100%;
+}
+
+main .sct-4 .img-download img{
+    width: 100%;
+    height: 100%;
+    border: .5px solid white;
+    padding: .1rem;
+}
 
 
