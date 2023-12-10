@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior : smooth;
 }
 
 /* button */
@@ -741,7 +742,7 @@ nav .icon-exit{
         width: 100vw;
         height: 100vh;
 
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
@@ -1008,7 +1009,7 @@ nav .icon-exit{
 
     /* section 3 */
     main .sct-3{
-        margin-top: 0;
+        margin-top: -2rem;
     }
     
     main .sct-3 h1{
@@ -1161,6 +1162,9 @@ nav .icon-exit{
     
     footer .address a{
         margin-bottom: 4rem;
+    }
+
+    .btn-address-dekstop{
         display: none;
     }
 
@@ -1196,5 +1200,39 @@ nav .icon-exit{
         font-weight: 100;
     }
 
+
+    /* arrow navigasi */
+    .arrow-nav{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 300px 10px;
+        border: 1px solid rgb(94, 58, 212);
+    
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .arrow-nav i{
+        color: rgb(94, 58, 212);
+        font-size: 1.5rem;
+    }
+
+    /* message nav */
+    .message-nav{
+        width: 50px;
+        height: 50px;
+        margin: 10px 10px;
+    }
+    
+    .message-nav i{
+        font-size: 1.5rem;
+    }
 
 }
