@@ -718,14 +718,6 @@ nav .icon-exit{
 
 
 @media screen and (max-width : 768px) {
-
-    /* display none */
-    .d-none{
-        display: none;
-        transition: all .5s;
-    }
-
-    /* display block */
     
     /* navigasi */
     nav{
@@ -734,12 +726,25 @@ nav .icon-exit{
         width: 100vw;
         height: 100vh;
 
-        position: fixed;
+        position: absolute;
         top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         background-color: rgb(94, 58, 212);
 
-        transition: all .5s;
+        transform: translate(0);
+        opacity: 1;
+        transition: all 1s;
     }
+
+    /* menambahkan kelas d-none di navigasi */
+    nav.d-none{
+        opacity: 0;
+        transform: translateY(-1000px);
+        transition: all 1s;
+    }
+
     nav .join{
         display: none;
     }
