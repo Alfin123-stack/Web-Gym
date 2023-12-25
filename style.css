@@ -511,6 +511,12 @@ footer .form form textarea{
     color: white;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
+    padding: .5rem;
+    font-family: inherit;
+}
+
+footer .form form input:focus{
+    outline: 0;
 }
 
 footer .form .information{
@@ -725,6 +731,10 @@ nav .icon-exit{
 }
 
 .btn-address-mobile{
+    display: none;
+}
+
+.arrow-nav{
     display: none;
 }
 
