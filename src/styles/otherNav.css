@@ -1,0 +1,61 @@
+/* navigasi trial */
+.nav-trial {
+    display: flex;
+    width: 50%;
+
+    position: fixed;
+    transform:rotate(90deg);
+    transform-origin: 3% ;
+
+    margin-top: 6rem;
+
+}
+
+.nav-trial .book-trial,
+.nav-trial .fit-studio{
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+
+    letter-spacing: 2px;
+}
+
+.nav-trial .book-trial a,
+.nav-trial .fit-studio a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-trial .book-trial{
+    background-color: rgb(94, 58, 212);
+}
+
+.nav-trial .fit-studio{
+    width: 30%;
+    background-color: rgb(5, 7, 21);
+}
+
+
+/* navigasi message */
+.message-nav{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(94, 58, 212);
+    margin: 20px 20px;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-nav i{
+    color: white;
+    font-size: 2rem;
+}

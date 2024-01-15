@@ -1,0 +1,178 @@
+/* footer */
+
+
+footer{
+    background-color: rgb(94, 58, 212);
+    color: white;
+    padding: 2rem 0;
+}
+
+footer .footer-sct{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+footer .form {
+    width: 100%;
+}
+
+footer .form h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+footer .form p{
+    margin-bottom: 4rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+footer .form form label{
+    display: block;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+footer .form .message label{
+    font-size: .6rem;
+}
+
+footer .form form input,
+footer .form form textarea{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    font-family: inherit;
+}
+
+footer .form form input:focus{
+    outline: 0;
+}
+
+footer .form .information{
+    display: flex;
+    column-gap: .5rem;
+}
+
+footer .form .information .email,
+footer .form .information .phone{
+    width: 50%;
+}
+
+
+footer .form .submit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+footer .form .submit button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+footer .form .submit button:hover{
+    opacity: .5;
+}
+
+footer .address{
+    align-self: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer .address h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2.8rem;
+    margin-bottom: 1.5rem;
+
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding-bottom: 1.5rem;
+}
+
+footer .address p{
+    font-size: .9rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+footer .address a{
+    text-decoration: none;
+    width: 100%;
+    padding: .7rem;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+
+    letter-spacing: 2px;
+    font-size: .9rem;
+
+    transition: all .5s;
+}
+
+footer .address a:hover{
+   background-color: white;
+   color: rgb(94, 58, 212);
+}
+
+
+footer aside{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer aside ul {
+    align-self: center;
+}
+
+footer aside ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+footer aside .socialmedia{
+    align-self: center;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer aside .socialmedia i{
+    font-size: 1.5rem;
+}
+
+footer .copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+}

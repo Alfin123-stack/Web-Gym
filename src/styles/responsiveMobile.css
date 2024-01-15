@@ -1,0 +1,549 @@
+/* mobile none */
+.p-mobile{
+    display: none;
+}
+
+.btn-mobile{
+    display: none;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+nav .login-navmobile{
+    display: none;
+}
+
+nav .icon-exit{
+    display: none;
+}
+
+.img-sct1-mobile{
+    display: none;
+}
+
+.img-sct2-mobile{
+    display: none;
+}
+
+.btn-address-mobile{
+    display: none;
+}
+
+.arrow-nav{
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+
+    /* body */
+    body{
+        overflow-x: hidden;
+    }
+    
+    /* navigasi */
+    nav{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        height: 100vh;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(94, 58, 212);
+
+        transform: translate(0);
+        opacity: 1;
+        transition: all 1s;
+    }
+
+    /* menambahkan kelas d-none di navigasi */
+    nav.d-none{
+        opacity: 0;
+        transform: translateY(-1000px);
+        transition: all 1s;
+    }
+
+    nav .join{
+        display: none;
+    }
+
+    nav .login-navmobile{
+        margin-top: 3rem;
+        display: block;
+        width: 50%;
+        flex-basis: 10%;
+        
+    }
+
+    nav .login-navmobile i{
+        color: rgb(94, 58, 212);
+    }
+
+    nav .login-navmobile p{
+        margin-left: 2px;
+    }
+
+    nav .join button{
+        display: none;
+    }
+
+    nav .navigasi{
+        width: 100%;
+        height: 70%;
+
+    }
+
+    nav .navigasi ul{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 1.5rem;
+        font-weight: 900;
+        height: 100%;
+        color: white;
+    }
+
+
+    nav .icon-exit{
+        display: block;
+        font-size: 1.5rem;
+        color : white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: 300;
+
+        margin: 20px;
+    }
+
+
+    /* landingpage */
+    main .landingpage{
+        height: 60vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+
+        padding: 0 1.5rem;
+    }
+
+    .p-mobile{
+        display: block;
+    }
+
+    main .landingpage .p-dekstop{
+        display: none;
+    }
+
+    main .landingpage p{
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+        font-weight: 200;
+    }
+    main .landingpage h1{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 900;
+        line-height: 2.5rem;
+    }
+    
+    main .landingpage .btn-landingpage{
+        margin-top: 0;
+        width: 40%;
+        padding: .8rem;
+    }
+
+    /* navigasi trial */
+
+    .hamburger-menu{
+        display: inline;
+    }
+
+    .nav-trial {
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(5, 7, 21);
+    
+        position: static;
+        transform:rotate(0deg);
+        transform: origin 0;;
+        margin-top: 0;
+    
+    }
+
+    .nav-trial .book-trial,
+    .nav-trial .fit-studio{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .nav-trial .fit-studio{
+        font-size: 1rem;
+    }
+
+    .book-trial{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* btn mobile */
+    .btn-mobile{
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn-mobile .btn{
+        width: 100%;
+        margin-top: 1rem;
+        letter-spacing: 2px;
+    }
+
+    /* section 1 */
+    main .sct-1{
+        margin-top: 0;
+        min-height: 1000px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        column-gap: 0;
+    }
+
+    .img-sct-1{
+        display: none;
+    }
+
+    .img-sct1-mobile{
+        display: block;
+    }
+    main .sct-1 .img-sct-1{
+        background-image: url(../asset/foto1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        height: 40%;
+    }
+    
+    main .sct-1 .art-sct-1{
+        background-color: rgb(5, 7, 21);
+        width: 100%;
+        height: 50%;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+    
+    }
+    
+    main .sct-1 .art-sct-1 h1{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 2.5rem;
+    }
+    
+    main .sct-1 .art-sct-1 p{
+        font-size: 1rem;
+        margin: 3rem 0;
+        line-height: 1.5rem;
+        word-spacing: 5px;
+        font-weight: 100;
+        text-align: left;
+    }
+
+
+    /* section 2 */
+    main .sct-2{
+        margin-top: -4rem;
+        padding: 2rem;
+    }
+    
+    main .sct-2 h1{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    main .sct-2 .category-class{
+        flex-direction: column;
+        justify-content: flex-start;
+        border-top: none;
+        border-bottom: none;
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+     
+    main .sct-2 .category-class h3{
+        border-bottom: 1px solid rgb(94, 58, 212);
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    main .sct-2 .category-class a{
+        text-decoration: none;
+    }
+    main .sct-2 .category-class a:hover h3{
+        color: rgb(92, 74, 151);
+    }
+    
+    main .sct-2 .category-class .timebutton-class{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    
+    }
+    
+    main .sct-2 .category-class .timebutton-class p{
+        font-size: 1rem;;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-classes{
+        padding: .8rem ;
+        width: 100%;
+        border: none;
+        font-size: 1rem;
+    }
+
+    /* section 3 */
+    main .sct-3{
+        margin-top: -2rem;
+    }
+    
+    main .sct-3 h1{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    
+    main .sct-3 .wrap-sct{
+        flex-direction: column;
+        height: 800px;
+    }
+    
+    main .sct-3 .wrap-sct .img-sct-1,
+    main .sct-3 .wrap-sct .img-sct-2{
+        display: block;
+        width: 100%;
+        height: 50%;
+        background-position: center;
+    }
+    
+    /* middle sct */
+    .img-sct-middle{
+        background-size: cover;
+        display: none;
+    }
+
+    .img-sct2-mobile{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+
+    
+    main .sct-3 .wrap-sct .art-joinnow{
+        width: 100%;
+        padding: 2rem;
+    }
+    
+    main .sct-3 .wrap-sct .art-joinnow h3{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    main .sct-3 .wrap-sct .art-joinnow p{
+        font-size: 1rem;
+    }
+
+    /* section 4 */
+    main .sct-4{
+        background-position: center;
+        background-attachment: scroll;
+        height: 400px;
+        margin-top: 0;
+    }
+    
+    main .sct-4 h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    main .sct-4 p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    main .sct-4 form input{
+        font-size: .8rem;
+    }
+    
+    main .sct-4 form button{
+        font-size: .8rem;
+    }
+    
+    main .sct-4 .img-download{
+        width: 50%;
+    }
+
+    main .sct-4 .img-download .img-playstore,
+    main .sct-4 .img-download .img-appstore{
+        height: 28px;
+    }
+    
+    /* secntion 5 */
+
+    main .sct-5{
+        min-height: 100px;
+    }
+    main .sct-5 h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+    
+    main .sct-5 .wrap-sct5 {
+        flex-direction: column;
+        row-gap: .5rem;
+        min-height: 2000px;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .img-sct5{
+        width: 100%;
+        height: 40%;
+    }   
+
+
+    /* footer */
+    
+    footer .footer-sct{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+    footer .form {
+        width: 100%;
+    }
+    
+    footer .form h1{
+        font-size: 2rem;
+    }
+    
+    
+    footer .form form label{
+        display: block;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+    
+    footer .form .information{
+        flex-direction: column;
+    }
+    
+    footer .form .information .email,
+    footer .form .information .phone{
+        width: 100%;
+    }
+    
+    footer .address{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    
+    footer .address h1{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    footer .address p{
+        font-size: .8rem;
+        text-align: center;
+    }
+    
+    footer .address a{
+        margin-bottom: 4rem;
+    }
+
+    .btn-address-dekstop{
+        display: none;
+    }
+
+    .btn-address-mobile{
+        display: block;
+    }
+
+    footer aside{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer aside ul{
+        display: none;
+    }
+    
+    footer aside .socialmedia{
+        width: 40%;
+    
+    }
+    
+    footer aside .socialmedia i{
+        font-size: 2rem;
+    }
+    
+    footer .copyright{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: .9rem;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+
+
+    /* arrow navigasi */
+    .arrow-nav{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 300px 10px;
+        border: 1px solid rgb(94, 58, 212);
+    
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .arrow-nav i{
+        color: rgb(94, 58, 212);
+        font-size: 1.5rem;
+    }
+
+    /* message nav */
+    .message-nav{
+        width: 50px;
+        height: 50px;
+        margin: 10px 10px;
+    }
+    
+    .message-nav i{
+        font-size: 1.5rem;
+    }
+
+}

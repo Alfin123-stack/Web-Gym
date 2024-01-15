@@ -1,0 +1,30 @@
+/* Landing Page */
+main .landingpage{
+    height: 120vh;
+    background-image: url(../asset/landingpage.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: white;
+    padding: 0 15%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .landingpage p{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+main .landingpage h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+main .landingpage .btn-landingpage{
+    margin-top: 2rem;
+    width: 20%;
+}

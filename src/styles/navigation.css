@@ -1,0 +1,64 @@
+/* Navigation */
+nav {
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(5, 7, 21);
+}
+
+nav .navigasi{
+    flex-basis: 45%;
+    color: white;
+}
+
+nav .navigasi ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav .navigasi ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+
+nav .navigasi ul li a:hover{
+    color: rgb(181, 172, 209);
+}
+
+nav .join {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 25%;
+}
+
+nav .join .login-landingpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-basis: 35%;
+}
+
+nav .join .login-landingpage .user{
+    background-color: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px white;
+
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .join .login-landingpage p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
