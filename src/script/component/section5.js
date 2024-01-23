@@ -1,10 +1,10 @@
-class Section5 extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class Section5 extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML `
+  render () {
+    this.innerHTML`
         <section class="sct-5">
             <h1>Follow Us @BaseFitStudio</h1>
             <div class="wrap-sct5">
@@ -34,9 +34,9 @@ class Section5 extends HTMLElement{
                     </div>
                 </div>
             </div>
-        </section>`;
-    }
+        </section>`
+  }
 }
 
-customElements.define("section-5",Section5);
-export default Section5;
+customElements.define('section-5', Section5)
+export default Section5

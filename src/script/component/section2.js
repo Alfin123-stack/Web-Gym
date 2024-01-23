@@ -1,11 +1,10 @@
-class Section2 extends HTMLElement{
-    connectedCallback(){
-        this.render();
- 
-    }
+class Section2 extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML = `
+  render () {
+    this.innerHTML = `
         <section class="sct-2">
         <h1>Our Classes</h1>
         <!-- awal classes 1 -->
@@ -36,9 +35,9 @@ class Section2 extends HTMLElement{
         </div>
         <!-- akhir classes 3 -->
     </section>
-        `;
-    }
+        `
+  }
 }
 
-customElements.define("section-2", Section2);
-export default Section2;
+customElements.define('section-2', Section2)
+export default Section2

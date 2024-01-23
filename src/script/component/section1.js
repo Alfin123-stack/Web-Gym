@@ -1,10 +1,10 @@
-class Section1 extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class Section1 extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML = `
+  render () {
+    this.innerHTML = `
         <section class="sct-1">
         <div class="img-sct-1"></div>
         <article class="art-sct-1">
@@ -18,9 +18,9 @@ class Section1 extends HTMLElement{
         <div class="img-sct-1 img-sct1-mobile"></div>
         <!-- akhir gambar section1 mobile -->
         </section>
-        `;
-    }
+        `
+  }
 }
 
-customElements.define("section-1", Section1);
-export default Section1;
+customElements.define('section-1', Section1)
+export default Section1

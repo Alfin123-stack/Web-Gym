@@ -1,10 +1,10 @@
-class NavTrial extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class NavTrial extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML = `
+  render () {
+    this.innerHTML = `
         <div class="nav-trial">
         <div class="fit-studio">
             <a href="">
@@ -27,8 +27,8 @@ class NavTrial extends HTMLElement{
         <!-- akhir btn mobile -->
     </div>
         `
-    }
+  }
 }
 
-customElements.define("nav-trial",NavTrial);
-export default NavTrial;
+customElements.define('nav-trial', NavTrial)
+export default NavTrial

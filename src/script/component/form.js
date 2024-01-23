@@ -1,10 +1,10 @@
-class FormFooter extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class FormFooter extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML = `<div class="form">
+  render () {
+    this.innerHTML = `<div class="form">
         <h1>Let's Get Moving</h1>
         <p>Sign Up For Updates</p>
         <form action="">
@@ -37,8 +37,8 @@ class FormFooter extends HTMLElement{
             </div>
         </form>
     </div>`
-    }
+  }
 }
 
-customElements.define("form-footer", FormFooter);
-export default FormFooter;
+customElements.define('form-footer', FormFooter)
+export default FormFooter

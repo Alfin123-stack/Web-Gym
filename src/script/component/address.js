@@ -1,10 +1,10 @@
-class AddressFooter extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class AddressFooter extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML =`
+  render () {
+    this.innerHTML = `
         <div class="address">
         <!-- awal tombol footer mobile section -->
         <a href="#" class="btn-address-mobile">
@@ -23,8 +23,8 @@ class AddressFooter extends HTMLElement{
         </a>
     </div>
         `
-    }
+  }
 }
 
-customElements.define("address-footer",AddressFooter);
-export default AddressFooter;
+customElements.define('address-footer', AddressFooter)
+export default AddressFooter

@@ -46,7 +46,9 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.[contenthash].js',
+    assetModuleFilename: 'asset/[hash][ext]',
+    clean: true
   },
 
   module: {
@@ -61,6 +63,14 @@ module.exports = {
             loader: 'css-loader'
           }
         ]
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader'
+      },
+      {
+        test: /\.(png|jpg|jpeg|webp)$/i,
+        type: 'asset/resource'
       }
     ]
   },
@@ -71,7 +81,9 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html'
     }),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      filename: 'main.[contenthash].css'
+    }),
     new OptimizeCssAssetsPlugin()
   ]
 }

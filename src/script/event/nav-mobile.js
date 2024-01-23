@@ -1,19 +1,19 @@
-const hamburgerMenu = ()=>{
-    // hamburger menu
+const hamburgerMenu = () => {
+  // hamburger menu
 
-    const menu = document.querySelector(".hamburger-menu");
-    const navigasi = document.querySelector("nav");
+  const menu = document.querySelector('.hamburger-menu')
+  const navigasi = document.querySelector('nav')
 
-    menu.addEventListener("click", () => {
-        navigasi.classList.toggle("d-none");
-    })
+  menu.addEventListener('click', () => {
+    navigasi.classList.toggle('d-none')
+  })
 
-    // exit
-    const exit = document.querySelector(".icon-exit");
+  // exit
+  const exit = document.querySelector('.icon-exit')
 
-    exit.addEventListener("click", () => {
-        navigasi.classList.toggle("d-none");
-    })
+  exit.addEventListener('click', () => {
+    navigasi.classList.toggle('d-none')
+  })
 }
 
-export default hamburgerMenu;
+export default hamburgerMenu

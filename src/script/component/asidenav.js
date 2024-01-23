@@ -1,11 +1,10 @@
-class AsidenavFooter extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class AsidenavFooter extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-
-    render(){
-        this.innerHTML = `
+  render () {
+    this.innerHTML = `
         <aside>
         <ul>
             <li>Home</li>
@@ -22,8 +21,8 @@ class AsidenavFooter extends HTMLElement{
         </div>
     </aside>
         `
-    }
+  }
 }
 
-customElements.define("asidenav-footer",AsidenavFooter);
-export default AsidenavFooter;
+customElements.define('asidenav-footer', AsidenavFooter)
+export default AsidenavFooter

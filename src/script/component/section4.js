@@ -1,10 +1,10 @@
-class Section4 extends HTMLElement{
-    connectedCallback(){
-        this.render();
-    }
+class Section4 extends HTMLElement {
+  connectedCallback () {
+    this.render()
+  }
 
-    render(){
-        this.innerHTML = `
+  render () {
+    this.innerHTML = `
         <section class="sct-4">
         <h1>Join us on <br>mobile!</h1>
         <p>The Spaces by Wix app lets you easily <br>stay in touch and updated with us on the <br>go. Just add your phone number and <br>we’ll text you a link to download the app.</p>
@@ -26,9 +26,9 @@ class Section4 extends HTMLElement{
         </div>
 
     </section>
-        `;
-    }
+        `
+  }
 }
 
-customElements.define("section-4", Section4);
-export default Section4;
+customElements.define('section-4', Section4)
+export default Section4
