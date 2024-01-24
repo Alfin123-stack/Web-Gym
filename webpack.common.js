@@ -5,7 +5,17 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    main: {
+      import: './src/index.js',
+      dependOn: 'shared'
+    },
+    vendor: {
+      import: './src/vendor.js',
+      dependOn: 'shared'
+    },
+    shared: 'vanilla-tilt'
+  },
   //   webpack devserver
   devServer: {
     client: {
@@ -46,7 +56,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.[contenthash].js',
+    filename: '[name].[contenthash].js',
     assetModuleFilename: 'asset/[hash][ext]',
     clean: true
   },

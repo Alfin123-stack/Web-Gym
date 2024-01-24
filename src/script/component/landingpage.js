@@ -8,7 +8,7 @@ class LandingPage extends HTMLElement {
         <header class="landingpage">
 
         <p class="p-dekstop">Base Fit- Functional Fitness Studio</p>
-        <h1>Where Fitness <br> Become Your <br> LifeStyle</h1>
+        <h1 data-tilt>Where Fitness <br> Become Your <br> LifeStyle</h1>
         <!-- paragraf mobile -->
         <div class="p-mobile">
             <p>Base Fit- Functional <br>Fitness Studio</p>

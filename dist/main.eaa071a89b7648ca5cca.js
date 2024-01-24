@@ -1,21 +1,24 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-var __webpack_exports__ = {};
+"use strict";
+(self["webpackChunkmyprojectbootcamp"] = self["webpackChunkmyprojectbootcamp"] || []).push([[179,736],{
+
+/***/ 76:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
 
 ;// CONCATENATED MODULE: ./src/script/event/nav-mobile.js
 var hamburgerMenu = function hamburgerMenu() {
   // hamburger menu
 
-  var menu = document.querySelector(".hamburger-menu");
-  var navigasi = document.querySelector("nav");
-  menu.addEventListener("click", function () {
-    navigasi.classList.toggle("d-none");
+  var menu = document.querySelector('.hamburger-menu');
+  var navigasi = document.querySelector('nav');
+  menu.addEventListener('click', function () {
+    navigasi.classList.toggle('d-none');
   });
 
   // exit
-  var exit = document.querySelector(".icon-exit");
-  exit.addEventListener("click", function () {
-    navigasi.classList.toggle("d-none");
+  var exit = document.querySelector('.icon-exit');
+  exit.addEventListener('click', function () {
+    navigasi.classList.toggle('d-none');
   });
 };
 /* harmony default export */ const nav_mobile = (hamburgerMenu);
@@ -56,7 +59,7 @@ var AddressFooter = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return AddressFooter;
 }( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
-customElements.define("address-footer", AddressFooter);
+customElements.define('address-footer', AddressFooter);
 /* harmony default export */ const address = ((/* unused pure expression or super */ null && (AddressFooter)));
 ;// CONCATENATED MODULE: ./src/script/component/arrownav.js
 function arrownav_typeof(o) { "@babel/helpers - typeof"; return arrownav_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, arrownav_typeof(o); }
@@ -95,7 +98,7 @@ var ArrowNav = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return ArrowNav;
 }( /*#__PURE__*/arrownav_wrapNativeSuper(HTMLElement));
-customElements.define("arrow-nav", ArrowNav);
+customElements.define('arrow-nav', ArrowNav);
 /* harmony default export */ const arrownav = ((/* unused pure expression or super */ null && (ArrowNav)));
 ;// CONCATENATED MODULE: ./src/script/component/asidenav.js
 function asidenav_typeof(o) { "@babel/helpers - typeof"; return asidenav_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, asidenav_typeof(o); }
@@ -134,7 +137,7 @@ var AsidenavFooter = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return AsidenavFooter;
 }( /*#__PURE__*/asidenav_wrapNativeSuper(HTMLElement));
-customElements.define("asidenav-footer", AsidenavFooter);
+customElements.define('asidenav-footer', AsidenavFooter);
 /* harmony default export */ const asidenav = ((/* unused pure expression or super */ null && (AsidenavFooter)));
 ;// CONCATENATED MODULE: ./src/script/component/form.js
 function form_typeof(o) { "@babel/helpers - typeof"; return form_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, form_typeof(o); }
@@ -173,7 +176,7 @@ var FormFooter = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return FormFooter;
 }( /*#__PURE__*/form_wrapNativeSuper(HTMLElement));
-customElements.define("form-footer", FormFooter);
+customElements.define('form-footer', FormFooter);
 /* harmony default export */ const component_form = ((/* unused pure expression or super */ null && (FormFooter)));
 ;// CONCATENATED MODULE: ./src/script/component/landingpage.js
 function landingpage_typeof(o) { "@babel/helpers - typeof"; return landingpage_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, landingpage_typeof(o); }
@@ -207,12 +210,12 @@ var LandingPage = /*#__PURE__*/function (_HTMLElement) {
   }, {
     key: "render",
     value: function render() {
-      this.innerHTML = "\n        <header class=\"landingpage\">\n\n        <p class=\"p-dekstop\">Base Fit- Functional Fitness Studio</p>\n        <h1>Where Fitness <br> Become Your <br> LifeStyle</h1>\n        <!-- paragraf mobile -->\n        <div class=\"p-mobile\">\n            <p>Base Fit- Functional <br>Fitness Studio</p>\n        </div>\n        <!-- akhir paragraf mobile -->\n        <button class=\"btn-landingpage btn\">Book Now</button>\n    </header>\n        ";
+      this.innerHTML = "\n        <header class=\"landingpage\">\n\n        <p class=\"p-dekstop\">Base Fit- Functional Fitness Studio</p>\n        <h1 data-tilt>Where Fitness <br> Become Your <br> LifeStyle</h1>\n        <!-- paragraf mobile -->\n        <div class=\"p-mobile\">\n            <p>Base Fit- Functional <br>Fitness Studio</p>\n        </div>\n        <!-- akhir paragraf mobile -->\n        <button class=\"btn-landingpage btn\">Book Now</button>\n    </header>\n        ";
     }
   }]);
   return LandingPage;
 }( /*#__PURE__*/landingpage_wrapNativeSuper(HTMLElement));
-customElements.define("landing-page", LandingPage);
+customElements.define('landing-page', LandingPage);
 /* harmony default export */ const landingpage = ((/* unused pure expression or super */ null && (LandingPage)));
 ;// CONCATENATED MODULE: ./src/script/component/messagenav.js
 function messagenav_typeof(o) { "@babel/helpers - typeof"; return messagenav_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, messagenav_typeof(o); }
@@ -251,7 +254,7 @@ var MessageNav = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return MessageNav;
 }( /*#__PURE__*/messagenav_wrapNativeSuper(HTMLElement));
-customElements.define("message-nav", MessageNav);
+customElements.define('message-nav', MessageNav);
 /* harmony default export */ const messagenav = ((/* unused pure expression or super */ null && (MessageNav)));
 ;// CONCATENATED MODULE: ./src/script/component/navtrial.js
 function navtrial_typeof(o) { "@babel/helpers - typeof"; return navtrial_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, navtrial_typeof(o); }
@@ -290,7 +293,7 @@ var NavTrial = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return NavTrial;
 }( /*#__PURE__*/navtrial_wrapNativeSuper(HTMLElement));
-customElements.define("nav-trial", NavTrial);
+customElements.define('nav-trial', NavTrial);
 /* harmony default export */ const navtrial = ((/* unused pure expression or super */ null && (NavTrial)));
 ;// CONCATENATED MODULE: ./src/script/component/section1.js
 function section1_typeof(o) { "@babel/helpers - typeof"; return section1_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, section1_typeof(o); }
@@ -329,7 +332,7 @@ var Section1 = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return Section1;
 }( /*#__PURE__*/section1_wrapNativeSuper(HTMLElement));
-customElements.define("section-1", Section1);
+customElements.define('section-1', Section1);
 /* harmony default export */ const section1 = ((/* unused pure expression or super */ null && (Section1)));
 ;// CONCATENATED MODULE: ./src/script/component/section2.js
 function section2_typeof(o) { "@babel/helpers - typeof"; return section2_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, section2_typeof(o); }
@@ -368,7 +371,7 @@ var Section2 = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return Section2;
 }( /*#__PURE__*/section2_wrapNativeSuper(HTMLElement));
-customElements.define("section-2", Section2);
+customElements.define('section-2', Section2);
 /* harmony default export */ const section2 = ((/* unused pure expression or super */ null && (Section2)));
 ;// CONCATENATED MODULE: ./src/script/component/section3.js
 function section3_typeof(o) { "@babel/helpers - typeof"; return section3_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, section3_typeof(o); }
@@ -407,7 +410,7 @@ var Section3 = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return Section3;
 }( /*#__PURE__*/section3_wrapNativeSuper(HTMLElement));
-customElements.define("section-3", Section3);
+customElements.define('section-3', Section3);
 /* harmony default export */ const section3 = ((/* unused pure expression or super */ null && (Section3)));
 ;// CONCATENATED MODULE: ./src/script/component/section4.js
 function section4_typeof(o) { "@babel/helpers - typeof"; return section4_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, section4_typeof(o); }
@@ -446,12 +449,10 @@ var Section4 = /*#__PURE__*/function (_HTMLElement) {
   }]);
   return Section4;
 }( /*#__PURE__*/section4_wrapNativeSuper(HTMLElement));
-customElements.define("section-4", Section4);
+customElements.define('section-4', Section4);
 /* harmony default export */ const section4 = ((/* unused pure expression or super */ null && (Section4)));
 ;// CONCATENATED MODULE: ./src/script/component/section5.js
 function section5_typeof(o) { "@babel/helpers - typeof"; return section5_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, section5_typeof(o); }
-var _templateObject;
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 function section5_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function section5_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, section5_toPropertyKey(descriptor.key), descriptor); } }
 function section5_createClass(Constructor, protoProps, staticProps) { if (protoProps) section5_defineProperties(Constructor.prototype, protoProps); if (staticProps) section5_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
@@ -482,12 +483,12 @@ var Section5 = /*#__PURE__*/function (_HTMLElement) {
   }, {
     key: "render",
     value: function render() {
-      this.innerHTML(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n        <section class=\"sct-5\">\n            <h1>Follow Us @BaseFitStudio</h1>\n            <div class=\"wrap-sct5\">\n                <div class=\"img-sct5 foto-1\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div class=\"img-sct5 foto-2\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div class=\"img-sct5 foto-3\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div class=\"img-sct5 foto-4\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div class=\"img-sct5 foto-5\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n            </div>\n        </section>"])));
+      this.innerHTML = "\n        <section class=\"sct-5\">\n            <h1>Follow Us @BaseFitStudio</h1>\n            <div class=\"wrap-sct5\">\n                <div data-tilt class=\"img-sct5 foto-1\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div data-tilt class=\"img-sct5 foto-2\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div data-tilt class=\"img-sct5 foto-3\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div data-tilt class=\"img-sct5 foto-4\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n                <div data-tilt class=\"img-sct5 foto-5\">\n                    <div class=\"text\">\n                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi quaerat quas </p>\n                    </div>\n                </div>\n            </div>\n        </section>";
     }
   }]);
   return Section5;
 }( /*#__PURE__*/section5_wrapNativeSuper(HTMLElement));
-customElements.define("section-5", Section5);
+customElements.define('section-5', Section5);
 /* harmony default export */ const section5 = ((/* unused pure expression or super */ null && (Section5)));
 ;// CONCATENATED MODULE: ./src/script/view/main.js
 
@@ -502,10 +503,30 @@ customElements.define("section-5", Section5);
 
 
 
+// EXTERNAL MODULE: ./src/vendor.js
+var vendor = __webpack_require__(270);
 ;// CONCATENATED MODULE: ./src/index.js
 
 
 
+
 nav_mobile();
-/******/ })()
-;
+
+/***/ }),
+
+/***/ 270:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+/* harmony import */ var vanilla_tilt__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(662);
+/* harmony import */ var vanilla_tilt__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vanilla_tilt__WEBPACK_IMPORTED_MODULE_0__);
+// eslint-disable-next-line no-unused-vars
+
+
+/***/ })
+
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ var __webpack_exports__ = (__webpack_exec__(76));
+/******/ }
+]);
